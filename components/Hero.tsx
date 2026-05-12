@@ -65,7 +65,7 @@ export default function Hero() {
               {t.hero.cta2}
             </a>
             <a
-              href="/cv-paulo-leandro.pdf"
+              href="/CV-Paulo-Leandro.pdf"
               download
               className="flex items-center gap-2 px-6 py-3 rounded-xl border border-white/10 text-white/70 hover:text-white hover:border-white/20 hover:bg-white/5 font-medium transition-all duration-200"
             >

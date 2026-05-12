@@ -75,7 +75,7 @@ export default function Navbar() {
             ))}
             <LanguagePicker />
             <a
-              href={`mailto:${meta.email}`}
+              href="#contato"
               className="text-sm px-4 py-2 rounded-lg border border-violet-500/40 text-violet-300 hover:bg-violet-500/10 transition-all duration-200"
             >
               {t.nav.contact}
@@ -113,7 +113,7 @@ export default function Navbar() {
             ))}
             <LanguagePicker />
             <a
-              href={`mailto:${meta.email}`}
+              href="#contato"
               className="mt-4 px-6 py-3 rounded-lg border border-violet-500/40 text-violet-300 hover:bg-violet-500/10 transition-all"
               onClick={() => setMenuOpen(false)}
             >
